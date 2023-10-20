@@ -2,7 +2,7 @@
 decimation-dashboard
 ====================
 
-Load and decimate triangle meshes
+Visualize the decimation of a triangle mesh with vtkQuadricDecimation
 
 
 * Free software: MIT License
@@ -18,13 +18,24 @@ Install the application
     pip install -e .
 
 
-Run the application
+Run the application with a sphere
 
 .. code-block:: console
 
     decimation-dashboard
 
-Features
---------
 
-* TODO
+Run the application with a file
+
+.. code-block:: console
+
+    decimation-dashboard path/to/file
+
+Run the application with an example from pyvista
+
+.. code-block:: console
+
+    decimation-dashboard bunny
+    decimation-dashboard louis_louvre
+    ...
+
